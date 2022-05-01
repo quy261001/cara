@@ -395,12 +395,12 @@ body {
 
 .newsletter .form {
   display: flex;
-  width: 40%;
+  width: 405;
 }
 
 .newsletter input {
   height: 3.125rem;
-  width: 24.125rem;
+  width: 17.125rem;
   padding: 0 1.25rem;
   font-size: 14px;
   border: 1px solid transparent;
@@ -413,7 +413,7 @@ body {
   background-color: #088178;
   color: #fff;
   white-space: nowrap;
-  padding:18px 30px;
+  padding: 20px 30px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
