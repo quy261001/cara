@@ -110,10 +110,6 @@ body {
   bottom: -4px;
   left: 20px;
 }
-.mobile {
-  display: none;
-  align-items: center;
-}
 /* Home page */
 .hero {
   background-image: url("img/hero4.png");
