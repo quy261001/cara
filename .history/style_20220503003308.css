@@ -602,13 +602,7 @@ footer a:hover {
   .banner3 .banner-box {
     width: 100%;
   }
-  .newsletter {
-    padding: 40px 20px;
-  }
   .newsletter .form {
-    width: 100%;
-  }
-  .navbar { 
-    width: 240px;
+    width: 1005;
   }
 }
