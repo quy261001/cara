@@ -15,7 +15,7 @@ if(close) {
 }
 
 document.addEventListener("click", function(e) {
-  if (!nav.contains(e.target) && !e.target.matches(".bar")) {
+  if (!nav.contains(e.target) && !e.target.matches(".baricon")) {
     nav.classList.remove("active")
   }
 })

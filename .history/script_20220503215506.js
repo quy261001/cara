@@ -1,4 +1,5 @@
 const bar = document.querySelector(".bar");
+const barIcon = document.querySelector(".baricon")
 const nav = document.querySelector(".navbar");
 const close = document.querySelector(".close");
 console.log(bar)
@@ -15,7 +16,7 @@ if(close) {
 }
 
 document.addEventListener("click", function(e) {
-  if (!nav.contains(e.target) && !e.target.matches(".bar")) {
-    nav.classList.remove("active")
+  if (!nav.contains(e.target) && !e.target.matches(".baricon")) {
+    console.log(e.target)
   }
 })

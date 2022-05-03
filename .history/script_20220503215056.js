@@ -16,6 +16,6 @@ if(close) {
 
 document.addEventListener("click", function(e) {
   if (!nav.contains(e.target) && !e.target.matches(".bar")) {
-    nav.classList.remove("active")
+    console.log("hello")
   }
 })

@@ -5,6 +5,7 @@ console.log(bar)
 console.log(nav)
 if(bar) {
   bar.addEventListener("click", () => {
+    console.log(e.target)
     nav.classList.add("active");
   })
 }
