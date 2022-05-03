@@ -694,10 +694,4 @@ footer a:hover {
   .navbar { 
     width: 240px;
   }
-  
-  /* Single Product */
-  .prodetails {
-    display: flex;
-    flex-direction: column;
-  }
 }
