@@ -944,13 +944,7 @@ footer a:hover {
   .contact-details .map {
     width: 100%;
   }
-  .form-details {
-    margin: 10px;
-    padding: 30px 10px;
-    flex-wrap: wrap;
-  }
-  .form-details form {
-    width: 100%;
-    margin-bottom: 30px;
+  .contact-details form {
+    flex-direction: column;
   }
 }
